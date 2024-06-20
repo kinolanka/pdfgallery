@@ -1,0 +1,21 @@
+{
+  "name": "pdf-image-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "@kinolanka/prettier-config": "github:kinolanka/prettier-config#v1.0.0",
+    "prettier": "^3.3.2"
+  }
+}

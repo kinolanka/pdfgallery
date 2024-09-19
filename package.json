@@ -1,14 +1,30 @@
 {
-  "name": "pdf-image-gallery",
-  "version": "1.0.0",
-  "description": "",
+  "name": "pdfgallery",
+  "version": "0.0.0",
+  "description": "Convert all the images in a directory into a single PDF file.",
+  "license": "MIT",
+  "keywords": [
+    "pdf",
+    "pdf gallery",
+    "pdf generator"
+  ],
+  "homepage": "https://github.com/kinolanka/pdfgallery#readme",
+  "bugs": {
+    "url": "https://  github.com/kinolanka/pdfgallery/issues"
+  },
+  "author": "Volodymyr Mashkin <kinolanka@gmail.com> (https://kinolanka.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinolanka/pdfgallery.git"
+  },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "prettier": "prettier --write ."
   },
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "dependencies": {
     "chalk": "^5.3.0",

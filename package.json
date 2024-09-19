@@ -15,7 +15,7 @@
     "pdfkit": "^0.15.0"
   },
   "devDependencies": {
-    "@kinolanka/prettier-config": "github:kinolanka/prettier-config#v1.0.0",
+    "@kinolanka/prettier-config": "^1.1.0",
     "prettier": "^3.3.2"
   }
 }

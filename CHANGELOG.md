@@ -1,5 +1,11 @@
 # pdfgallery
 
+## 0.1.2
+
+### Patch Changes
+
+- 86e0e4f: Update readme file
+
 ## 0.1.1
 
 ### Patch Changes

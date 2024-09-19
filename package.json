@@ -1,6 +1,6 @@
 {
   "name": "pdfgallery",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert all the images in a directory into a single PDF file.",
   "license": "MIT",
   "keywords": [

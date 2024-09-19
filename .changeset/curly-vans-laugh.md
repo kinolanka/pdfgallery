@@ -1,5 +1,0 @@
----
-"pdfgallery": patch
----
-
-Fix

@@ -1,5 +1,11 @@
 # pdfgallery
 
+## 0.1.1
+
+### Patch Changes
+
+- d8e760e: Fix
+
 ## 0.1.0
 
 ### Minor Changes

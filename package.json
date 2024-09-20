@@ -20,21 +20,21 @@
   "files": [
     "dist"
   ],
-  "main": "index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "bin": "./dist/index.js",
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
     "start:dev": "node dist/index.js",
-    "prettier": "prettier --write .",
-    "ci": "npm run clean && npm run prettier && npm run typecheck && npm run build",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "ci": "npm run clean && npm run check-format && npm run typecheck && npm run build",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
   },
-  "type": "module",
-  "exports": "./dist/index.js",
-  "bin": "./dist/index.js",
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
